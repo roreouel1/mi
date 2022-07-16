@@ -1,0 +1,122 @@
+#header{
+    background:#000;
+    opacity:0.8;
+    /* padding-bottom: 30px; */   
+}
+
+@media only screen and (max-width: 600px) {
+    #header{
+        opacity:1; 
+    }
+
+    .logo{
+        /* padding-left:0!important; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+  }
+
+/* .logo{
+    padding-left:150px !important;
+} */
+
+.img-fluid{
+    width:100%;
+    height: auto;
+}
+
+.navbar a{
+    padding-right: 40px;
+}
+
+.navbar a:hover{
+   border:1px solid #fff;
+   padding-right: 40px;
+}
+
+.get-started-btn {
+    margin-right:80px;
+}
+
+.get-started-btn:hover {
+   color:#000;
+   font-weight:700;
+}
+
+#about,#contact,#services{
+    margin-top:50px;
+}
+
+
+.toper{
+    margin-top:20px;
+}
+
+.bolder{
+    font-weight:900!important;
+}
+
+.ex-toper{
+    margin-top:80px;
+}
+
+.e-toper{
+    margin-top:60px;
+}
+
+
+.black-w{
+    background: #000;
+    color:#fff
+}
+
+.black-y{
+    background: #000;
+    color:#ffc451
+}
+
+
+.yellow{
+    color: #000;
+    background:#ffc107
+}
+
+
+.left{
+    align-items: left;
+    text-align: left;
+}
+
+/* .looker{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/trans.jpg") top center!important;
+    background-size: cover;
+    position: relative;
+
+} */
+
+.list{
+    font-size:10px;
+    text-align: left;
+}
+
+#services.icon-box{
+  color:#fff;
+  background-color: #000 !important;
+}
+
+#services.icon-box h4 a,#services.icon-box h4, #services.icon-box h5,#services.icon-box p{
+    color: #fff !important;
+}
+
+.courses{
+    color:#000;
+    background-color:#ffc107 !important;
+}
+
+
+.courses h4 a,.courses h4, .courses h5,.courses p{
+    color: #000 !important;
+}
